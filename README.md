@@ -1,5 +1,9 @@
 # Why Silica?
 
+[Spec](being_revised/silica-specification.md) · [Spec (additional)](being_revised/silica-specification-additional.md) · [Formal verification](being_revised/silica-formal-verification-specification.md) · [Crypto intro](being_revised/crypto-proposal-introduction.md) · [Crypto details](being_revised/crypto-proposal-details.md) · [Crash containment](being_revised/beam_like_crash_containment_design_notes.md)
+
+---
+
 Silica is a functional systems programming language designed for AArch64. It compiles BEAM languages (Erlang, Elixir, Gleam) to native code while preserving their concurrency model. This document explains the backstory, design decisions, and rationale behind the language.
 
 ---
