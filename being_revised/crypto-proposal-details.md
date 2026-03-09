@@ -37,7 +37,7 @@ The core idea: move the burden of side-channel discipline and API safety from �
 
 - `Secret` — marks values as secret-tainted (compiler-recognized)
 - `Public` — marks values as public
-- **Compiler rule:** any operation involving `Secret` yields `Secret`
+- **Compiler rule:** any operation involving `Secret` yields that same data as `Secret`
 - **Compiler rule:** no implicit `Secret -> Public` conversion
 
 Optional gated declassification (for audited boundaries only):
