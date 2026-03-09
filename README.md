@@ -4,7 +4,7 @@
 
 ---
 
-Silica is a functional systems programming language designed for AArch64. It compiles BEAM languages (Erlang, Elixir, Gleam) to native code while preserving their concurrency model. This document explains the backstory, design decisions, and rationale behind the language.
+Silica is a close-to-the-chip, memory-safe, functional, systems programming language designed for AArch64 and soon x86-64 along with other chips. It follows BEAM language's (Erlang, Elixir, Gleam) concurrency model and exposes safe memory access. This document explains the backstory, design decisions, and rationale behind the language.
 
 ---
 
