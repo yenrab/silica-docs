@@ -1,6 +1,6 @@
 # Why Silica?
 
-[Spec](being_revised/silica-specification.md) · [Spec (additional)](being_revised/silica-specification-additional.md) · [Formal verification](being_revised/silica-formal-verification-specification.md) · [Crypto intro](being_revised/crypto-proposal-introduction.md) · [Crypto details](being_revised/crypto-proposal-details.md) · [Crash containment](being_revised/beam_like_crash_containment_design_notes.md)
+[Spec](being_revised/silica-specification.md) · [Spec (additional)](being_revised/silica-specification-additional.md) · [Formal verification](being_revised/silica-formal-verification-specification.md) · [Crypto intro](being_revised/crypto-proposal-introduction.md) · [Crypto details](being_revised/crypto-proposal-details.md) · [Crash containment](being_revised/beam_like_crash_containment_design_notes.md) · [Region handles & references](being_revised/region_handles_and_references.md)
 
 ---
 
@@ -149,6 +149,7 @@ All of these documents are undergoing revisions as the Silica compiler is being 
 | [crypto-proposal-introduction.md](being_revised/crypto-proposal-introduction.md) | Crypto-safe language primitives | Unstable |
 | [crypto-proposal-details.md](being_revised/crypto-proposal-details.md) | Crypto proposal details | Unstable |
 | [beam_like_crash_containment_design_notes.md](being_revised/beam_like_crash_containment_design_notes.md) | BEAM-style fault isolation in native binaries | Unstable |
+| [region_handles_and_references.md](being_revised/region_handles_and_references.md) | Region handles vs. region references memory tutorial | Unstable |
 
 
 
